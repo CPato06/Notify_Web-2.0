@@ -12,7 +12,7 @@ class DialogService extends GetxService {
       colorText: color,
       snackPosition: SnackPosition.BOTTOM,
       isDismissible: true,
-      dismissDirection: SnackDismissDirection.HORIZONTAL,
+      dismissDirection:DismissDirection.horizontal,
       forwardAnimationCurve: Curves.easeOutBack,
       margin: const EdgeInsets.all(15),
     );
